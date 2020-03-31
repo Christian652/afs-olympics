@@ -49672,9 +49672,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\loginLaravel\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\xampp\htdocs\loginLaravel\resources\views\layouts\scss\bootstrap.scss */"./resources/views/layouts/scss/bootstrap.scss");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\loginLaravel\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\OlimpiadasAfs\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\xampp\htdocs\OlimpiadasAfs\resources\views\layouts\scss\bootstrap.scss */"./resources/views/layouts/scss/bootstrap.scss");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\OlimpiadasAfs\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

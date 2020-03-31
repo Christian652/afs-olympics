@@ -19,11 +19,11 @@ body {
 }
 .sidebar ul li a:hover, .sidebar ul .active a{
     color: #ecedee;
-    background-color: #354358;
+    background-color: #2CBF3B;
 }
 .sidebar ul ul a{
     padding-left: 2.5rem;
-    background-color: #1e2835;
+    background-color: #1D8027;
 }
 /*Seletor utilizado para ativar o botão ocultar menu em PC*/ 
 .sidebar.toggled{
@@ -44,7 +44,7 @@ body {
 }
 
 .sidebar [aria-expanded="true"]{
-    background-color: #19222d;
+    background-color: #2CBF3B;
 }
 
 .titulo{

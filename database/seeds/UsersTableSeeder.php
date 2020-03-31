@@ -19,7 +19,6 @@ class UsersTableSeeder extends Seeder
         DB::table('role_user')->truncate();
 
         $adminRole = Role::where('nome','Administrador')->first();
-        $secretarioRole = Role::where('nome', 'Secretario')->first();
 
         $admin = User::create([
             'name'=>'Christian',
@@ -27,13 +26,6 @@ class UsersTableSeeder extends Seeder
             'password'=>Hash::make('administrador')
         ]);
 
-        $secretario = User::create([
-            'name'=>'Christian',
-            'email'=>'secretario@gmail.com',
-            'password'=>Hash::make('secretario')
-        ]); 
-
         $admin->roles()->attach($adminRole);
-        $secretario->roles()->attach($secretarioRole);
     }
 }
